@@ -11,7 +11,7 @@
 .intro .links ul{
     columns: 2;
     margin-top: 10%;
-    width: 80%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -75,7 +75,7 @@
 .info .links ul{
     columns: 2;
     margin-top: 5%;
-    width: 80%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -108,7 +108,8 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 1px solid black;
+    padding: 25px;
 
 }
