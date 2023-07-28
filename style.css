@@ -1,0 +1,114 @@
+#page{
+    width: 70%;
+    margin: auto;
+}
+.intro{
+    height: 600px;
+}
+.intro .title{
+    text-align: center;
+}
+.intro .links ul{
+    columns: 2;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro .links li{
+    list-style-type: none;
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.RA{
+    text-align: center;
+}
+#mariott{
+    width: 80%;
+    height: auto;
+}
+.mid{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+#skopjeLight{
+    width: 100%;
+    height: auto;
+}
+#kokino{
+    width: 100%;
+    height: auto;
+}
+.events{
+    width: 49%;
+    float: left;
+    text-align: center;
+}
+.mustVisit{
+    width: 49%;
+    float: right;
+    text-align: center;
+}
+.mid .events button{
+    width: 35%;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    background: deepskyblue;
+}
+.mid .mustVisit button{
+    width: 35%;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    background: deepskyblue;
+}
+
+.info .title{
+    text-align: center;
+}
+.info .links ul{
+    columns: 2;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info .links li {
+    list-style-type: none;
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.contact{
+    background: darkblue;
+    color: white;
+    height: 400px;
+    text-align: center;
+}
+.contact button{
+    width: 15%;
+    padding: 20px;
+}
+.contact {
+    padding-top: 20px;
+}
+.about{
+    text-align: center;
+}
+.about .text{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
