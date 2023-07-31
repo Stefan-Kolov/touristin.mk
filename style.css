@@ -22,7 +22,11 @@ body {
 }
 .intro .links ul{
     columns: 2;
+<<<<<<< HEAD
     margin-top: 5%;
+=======
+    margin-top: 10%;
+>>>>>>> 57587f4109c0c817e07bfd48ccb32105de2a6884
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -105,7 +109,11 @@ body {
 }
 .info .links ul{
     columns: 2;
+<<<<<<< HEAD
     margin-top: 7%;
+=======
+    margin-top: 5%;
+>>>>>>> 57587f4109c0c817e07bfd48ccb32105de2a6884
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -160,10 +168,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
+<<<<<<< HEAD
     border: 3px solid #E03A3F;
     padding: 25px;
     font-family: 'Architects Daughter', cursive;
     font-size: x-large;
+=======
+    border: 1px solid black;
+    padding: 25px;
+
+>>>>>>> 57587f4109c0c817e07bfd48ccb32105de2a6884
 }
 .topbtn a{
     position: fixed;
