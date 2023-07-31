@@ -1,30 +1,48 @@
+body {
+    background: url("pexels-buchkiste-4834876.jpg");
+}
 #page{
     width: 70%;
     margin: auto;
 }
 .intro{
-    height: 600px;
+    height: 500px;
 }
 .intro .title{
     text-align: center;
 }
+.intro .title h4{
+    font-family: 'Architects Daughter', cursive;
+    font-size: x-large;
+}
+.intro .title h1{
+    font-family: 'Archivo', sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+}
 .intro .links ul{
     columns: 2;
-    margin-top: 10%;
-    width: 80%;
+    margin-top: 5%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
 .intro .links li{
     list-style-type: none;
-    border: 1px black solid;
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 15px;
     margin-bottom: 5%;
     text-align: center;
+    background:#E03A3F;
+    font-family: 'Archivo Black', sans-serif;
+}
+.intro .links li a{
+    text-decoration: none;
+    color: white;
 }
 .RA{
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 #mariott{
     width: 80%;
@@ -48,47 +66,69 @@
     width: 49%;
     float: left;
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 .mustVisit{
     width: 49%;
     float: right;
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 .mid .events button{
     width: 35%;
     border-radius: 15px;
     border: none;
     padding: 10px;
-    background: deepskyblue;
+    background: #E03A3F;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    color: white;
+    margin-top: 29%;
 }
 .mid .mustVisit button{
     width: 35%;
     border-radius: 15px;
     border: none;
     padding: 10px;
-    background: deepskyblue;
+    background: #E03A3F;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    color: white;
 }
-
+.info {
+    height: 400px;
+    vertical-align: center;
+}
 .info .title{
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 .info .links ul{
     columns: 2;
-    margin-top: 5%;
-    width: 80%;
+    margin-top: 7%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
+
 }
 .info .links li {
     list-style-type: none;
-    border: 1px black solid;
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 15px;
     margin-bottom: 5%;
     text-align: center;
+    background: #E03A3F;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+.contact h1,h2{
+    font-family: 'Architects Daughter', cursive;
+}
+.contact h3,h4{
+    font-family: 'Archivo Black', sans-serif;
 }
 .contact{
-    background: darkblue;
+    background: #E03A3F;
     color: white;
     height: 400px;
     text-align: center;
@@ -96,19 +136,44 @@
 .contact button{
     width: 15%;
     padding: 20px;
+    background: yellow;
+    border: none;
+    border-radius: 15px;
+    color: #E03A3F;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
 }
 .contact {
     padding-top: 20px;
 }
+.about h1{
+    margin-top: 6%;
+    font-family: 'Architects Daughter', cursive;
+}
 .about{
     text-align: center;
+    height: 300px;
 }
 .about .text{
-    width: 60%;
+    width: 70%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
-    border: 1px solid black;
-
+    border-radius: 30px;
+    border: 3px solid #E03A3F;
+    padding: 25px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: x-large;
 }
+.topbtn a{
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+    width: 60px;
+    height: 60px;
+    background: url("top.png") no-repeat;
+    background-size: 50px 50px;
+    font-size: 0;
+}
+
+
