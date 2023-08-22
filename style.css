@@ -1,12 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 body {
-    background: url("pexels-buchkiste-4834876.jpg");
+    background: url("Images/pexels-buchkiste-4834876.jpg");
 }
 #page{
     width: 70%;
     margin: auto;
 }
 .intro{
-    height: 500px;
+    height: 350px;
 }
 .intro .title{
     text-align: center;
@@ -20,29 +23,46 @@ body {
     font-size: 80px;
     font-weight: 100;
 }
-.intro .links ul{
-    columns: 2;
-<<<<<<< HEAD
-    margin-top: 5%;
-=======
-    margin-top: 10%;
->>>>>>> 57587f4109c0c817e07bfd48ccb32105de2a6884
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+.intro .links header{
+    border-radius: 5px;
+    background: #E03A3F;
 }
-.intro .links li{
-    list-style-type: none;
-    border-radius: 25px;
-    padding: 15px;
-    margin-bottom: 5%;
+.intro .links header ul{
     text-align: center;
-    background:#E03A3F;
-    font-family: 'Archivo Black', sans-serif;
 }
-.intro .links li a{
+.intro .links header ul li{
+    display: inline-block;
+    position: relative;
+}
+.intro .links header ul li a{
     text-decoration: none;
     color: white;
+    width: 100%;
+    display: block;
+    font-size: large;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    padding: 20px 40px;
+    text-align: center;
+}
+.intro .links header ul li ul.dropdown li a{
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+.intro .links header ul li ul.dropdown{
+    width: 100%;
+    background: #E03A3F;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 0 0 5px 5px;
+}
+.intro .links header ul li a:hover{
+    background: #E03A3F;
+}
+.intro .links header ul li:hover ul.dropdown{
+    display: block;
 }
 .RA{
     text-align: center;
@@ -87,7 +107,7 @@ body {
     font-family: 'Archivo', sans-serif;
     font-weight: 800;
     color: white;
-    margin-top: 29%;
+    margin-top: 30%;
 }
 .mid .mustVisit button{
     width: 35%;
@@ -109,15 +129,11 @@ body {
 }
 .info .links ul{
     columns: 2;
-<<<<<<< HEAD
     margin-top: 7%;
-=======
-    margin-top: 5%;
->>>>>>> 57587f4109c0c817e07bfd48ccb32105de2a6884
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-
+    padding-left: 0;
 }
 .info .links li {
     list-style-type: none;
@@ -128,6 +144,10 @@ body {
     background: #E03A3F;
     color: white;
     font-family: 'Archivo Black', sans-serif;
+}
+.info .links li a{
+    width: 100%;
+    display: inline-block;
 }
 .contact h1,h2{
     font-family: 'Architects Daughter', cursive;
@@ -160,7 +180,6 @@ body {
 }
 .about{
     text-align: center;
-    height: 300px;
 }
 .about .text{
     width: 70%;
@@ -168,26 +187,131 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-<<<<<<< HEAD
     border: 3px solid #E03A3F;
     padding: 25px;
     font-family: 'Architects Daughter', cursive;
     font-size: x-large;
-=======
-    border: 1px solid black;
-    padding: 25px;
-
->>>>>>> 57587f4109c0c817e07bfd48ccb32105de2a6884
 }
 .topbtn a{
     position: fixed;
-    bottom: 50px;
-    right: 80px;
+    bottom: 5%;
+    right: 5%;
     width: 60px;
     height: 60px;
-    background: url("top.png") no-repeat;
+    background: url("Images/top.png") no-repeat;
     background-size: 50px 50px;
     font-size: 0;
+}
+#bottom{
+    height: 400px;
+    background: dimgrey;
+}
+img {
+    max-width: 100%;
+}
+.slider-container{
+    width: 80%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+}
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 .2em 1em;
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s .75s;
+    animation: slideShow 20s infinite;
+}
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+}
+
+.slide-1 {
+    background-image: url("Images/leonardo-1960753-skpmc-exterior-0008-hor-clsc_O-333013.jpg");
+    animation: slideShow 20s infinite 0s;
+}
+.slide-2 {
+    background-image: url("Images/1.jpg");
+    animation: slideShow 20s infinite 5s;
+}
+.slide-3{
+    background-image: url("Images/330897648.jpg");
+    animation: slideShow 20s infinite 10s;
+}
+.slide-4{
+    background-image: url("Images/Aleksandar-Palace-Skopje.jpg");
+    animation: slideShow 20s infinite 15s;
+}
+.slide-5{
+    background-image: url("Images/246993043.jpg");
+    animation: slideShow 20s infinite 20s;
+}
+@keyframes slideShow {
+    0%, 100% { opacity: 0; z-index: 10; }
+    20%, 80% { opacity: 1; z-index: 100; }
+}
+.content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.RA .title h1{
+   font-family: 'Archivo', sans-serif;
+}
+.info .links ul li a{
+    text-decoration: none;
+    color: white;
+}
+#aeroplane{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+}
+.RA .content{
+    margin-bottom: 10%;
+}
+.RA .content .text{
+    text-align: justify;
+}
+.introductiontext{
+    height: 250px;
+}
+.introductiontext .title h1{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+.introductiontext .content .text{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
 }
 
 
