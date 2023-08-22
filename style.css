@@ -23,9 +23,19 @@ body {
     font-size: 80px;
     font-weight: 100;
 }
+<<<<<<< HEAD
 .intro .links header{
     border-radius: 5px;
     background: #E03A3F;
+=======
+.intro .links ul{
+    columns: 2;
+    margin-top: 5%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+>>>>>>> 98ae9869ea25d3e7195308ffc3707e5bd4c585aa
 }
 .intro .links header ul{
     text-align: center;
