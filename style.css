@@ -8,9 +8,6 @@ body {
     width: 70%;
     margin: auto;
 }
-.intro{
-    height: 350px;
-}
 .intro .title{
     text-align: center;
 }
@@ -29,6 +26,7 @@ body {
 }
 .intro .links header ul{
     text-align: center;
+    padding: 0;
 }
 .intro .links header ul li{
     display: inline-block;
@@ -47,7 +45,7 @@ body {
 }
 .intro .links header ul li ul.dropdown li a{
     display: block;
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 .intro .links header ul li ul.dropdown{
@@ -303,7 +301,8 @@ img {
     text-align: justify;
 }
 .introductiontext{
-    height: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .introductiontext .title h1{
     font-family: 'Architects Daughter', cursive;
@@ -313,5 +312,9 @@ img {
     font-family: 'Architects Daughter', cursive;
     text-align: center;
 }
+.mid button{
+    cursor: pointer;
+}
+
 
 
