@@ -315,6 +315,24 @@ img {
 .mid button{
     cursor: pointer;
 }
+.content .place{
+    display: inline-block;
+    margin-bottom: 2%;
+ }
+.content .left{
+    width: 40%;
+    height: auto;
+    float: left;
+    display: inline-block;
+    margin-right: 2%;
+}
+.content .right{
+    width: 40%;
+    height: auto;
+    float: right;
+    display: inline-block;
+    margin-left: 2%;
+}
 
 
 
