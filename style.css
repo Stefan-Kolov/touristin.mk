@@ -26,6 +26,7 @@ body {
 }
 .intro .links header ul{
     text-align: center;
+    padding: 0;
 }
 .intro .links header ul li{
     display: inline-block;
@@ -300,7 +301,8 @@ img {
     text-align: justify;
 }
 .introductiontext{
-    height: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .introductiontext .title h1{
     font-family: 'Architects Daughter', cursive;
