@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: url("Images/pexels-buchkiste-4834876.jpg");
+}
+#page{
+    width: 70%;
+    margin: auto;
+    min-height: 1550px;
+}
+.intro .title{
+    text-align: center;
+}
+.intro .title h4{
+    font-family: 'Architects Daughter', cursive;
+    font-size: x-large;
+}
+.intro .title h1{
+    font-family: 'Archivo', sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+}
+.intro .links header{
+    border-radius: 5px;
+    background: #E03A3F;
+}
+.intro .links header ul{
+    text-align: center;
+    padding: 0;
+}
+.intro .links header ul li{
+    display: inline-block;
+    position: relative;
+}
+.intro .links header ul li a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: block;
+    font-size: large;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    padding: 20px 40px;
+    text-align: center;
+}
+.intro .links header ul li ul.dropdown li a{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.intro .links header ul li ul.dropdown{
+    width: 100%;
+    background: #E03A3F;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 0 0 5px 5px;
+}
+.intro .links header ul li a:hover{
+    background: #E03A3F;
+}
+.intro .links header ul li:hover ul.dropdown{
+    display: block;
+}
+.contentbox{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+#mariott{
+    width: 80%;
+    height: auto;
+}
+.mid{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+#skopjeLight{
+    width: 100%;
+    height: auto;
+}
+#kokino{
+    width: 100%;
+    height: auto;
+}
+.events{
+    width: 49%;
+    float: left;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+.mustVisit{
+    width: 49%;
+    float: right;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+.mid .events button{
+    width: 35%;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    background: #E03A3F;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    color: white;
+    margin-top: 30%;
+}
+.mid .mustVisit button{
+    width: 35%;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    background: #E03A3F;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.info .title{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+.info .links ul{
+    columns: 2;
+    margin-top: 7%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+.info .links li {
+    list-style-type: none;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 5%;
+    text-align: center;
+    background: #E03A3F;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+.info .links li a{
+    width: 100%;
+    display: inline-block;
+}
+.contact h1,h2{
+    font-family: 'Architects Daughter', cursive;
+}
+.contact h3,h4{
+    font-family: 'Archivo Black', sans-serif;
+}
+.contact{
+    background: #E03A3F;
+    color: white;
+    height: 400px;
+    text-align: center;
+}
+.contact button{
+    width: 15%;
+    padding: 20px;
+    background: yellow;
+    border: none;
+    border-radius: 15px;
+    color: #E03A3F;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+}
+.contact {
+    padding-top: 20px;
+}
+.about h1{
+    margin-top: 6%;
+    font-family: 'Architects Daughter', cursive;
+}
+.about{
+    text-align: center;
+}
+.about .text{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 3px solid #E03A3F;
+    padding: 25px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: x-large;
+}
+.topbtn a{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    background: url("Images/top.png") no-repeat;
+    background-size: 50px 50px;
+    font-size: 0;
+}
+img {
+    max-width: 100%;
+}
+.slider-container{
+    width: 80%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+}
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 .2em 1em;
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s .75s;
+    animation: slideShow 20s infinite;
+}
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+}
+
+.slide-1 {
+    background-image: url("Images/leonardo-1960753-skpmc-exterior-0008-hor-clsc_O-333013.jpg");
+    animation: slideShow 20s infinite 0s;
+}
+.slide-2 {
+    background-image: url("Images/1.jpg");
+    animation: slideShow 20s infinite 5s;
+}
+.slide-3{
+    background-image: url("Images/330897648.jpg");
+    animation: slideShow 20s infinite 10s;
+}
+.slide-4{
+    background-image: url("Images/Aleksandar-Palace-Skopje.jpg");
+    animation: slideShow 20s infinite 15s;
+}
+.slide-5{
+    background-image: url("Images/246993043.jpg");
+    animation: slideShow 20s infinite 20s;
+}
+@keyframes slideShow {
+    0%, 100% { opacity: 0; z-index: 10; }
+    20%, 80% { opacity: 1; z-index: 100; }
+}
+.content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentbox .title h1{
+   font-family: 'Archivo', sans-serif;
+}
+.info .links ul li a{
+    text-decoration: none;
+    color: white;
+}
+#aeroplane{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.contentbox .content{
+    margin-bottom: 10%;
+}
+.contentbox .content .text{
+    text-align: justify;
+}
+.introductiontext{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.introductiontext .title h1{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+.introductiontext .content .text{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+.mid button{
+    cursor: pointer;
+}
+.place{
+    background-color: #CCCDC6;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.place h2{
+    text-align: left;
+}
+.place .text{
+    font-family: 'Archivo', sans-serif;
+}
+.content .place{
+    display: inline-block;
+    margin-bottom: 2%;
+ }
+.content .left{
+    width: 40%;
+    height: auto;
+    float: left;
+    display: inline-block;
+    margin-right: 1%;
+}
+.content .right{
+    width: 40%;
+    height: auto;
+    float: right;
+    display: inline-block;
+    margin-left: 1%;
+}
+.content .tlink{
+   color: darkblue;
+}
+.links {
+    min-width: 100%;
+}
+#bottom {
+    width: 100%;
+    display: table;
+    background: #E03A3F;
+}
+#bottom .column1{
+    display: table-cell;
+    width: 33%;
+}
+#bottom .column2{
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+}
+#bottom .column3{
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+}
+.footxt{
+    font-family: 'Archivo', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+ }
+#igicon{
+    width: 5%;
+    height: auto;
+    margin-bottom: 1%;
+}
+.transport-info h2{
+    text-align: left;
+}
+.transport-info a{
+    text-decoration: none;
+}
+.transport-info p{
+    font-family: 'Archivo', sans-serif;
+    text-align: left;
+}
+.prices-info {
+    text-align: left;
+}
+.things-careful-info{
+    text-align: left;
+}
+.last-update{
+    font-family: 'Archivo', sans-serif;
+    background-color: #CCCDC6;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.last-update p{
+    padding: 10px;
+}
+
