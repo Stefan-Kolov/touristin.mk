@@ -7,7 +7,7 @@ body {
 #page{
     width: 70%;
     margin: auto;
-    min-height: 2000px;
+    min-height: 1550px;
 }
 .intro .title{
     text-align: center;
@@ -63,7 +63,7 @@ body {
 .intro .links header ul li:hover ul.dropdown{
     display: block;
 }
-.RA{
+.contentbox{
     text-align: center;
     font-family: 'Architects Daughter', cursive;
 }
@@ -270,11 +270,11 @@ img {
     20%, 80% { opacity: 1; z-index: 100; }
 }
 .content {
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-.RA .title h1{
+.contentbox .title h1{
    font-family: 'Archivo', sans-serif;
 }
 .info .links ul li a{
@@ -286,11 +286,12 @@ img {
     height: auto;
     float: left;
     margin-right: 2%;
+    margin-bottom: 2%;
 }
-.RA .content{
+.contentbox .content{
     margin-bottom: 10%;
 }
-.RA .content .text{
+.contentbox .content .text{
     text-align: justify;
 }
 .introductiontext{
@@ -308,6 +309,18 @@ img {
 .mid button{
     cursor: pointer;
 }
+.place{
+    background-color: #CCCDC6;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.place h2{
+    text-align: left;
+}
+.place .text{
+    font-family: 'Archivo', sans-serif;
+}
 .content .place{
     display: inline-block;
     margin-bottom: 2%;
@@ -317,17 +330,17 @@ img {
     height: auto;
     float: left;
     display: inline-block;
-    margin-right: 2%;
+    margin-right: 1%;
 }
 .content .right{
     width: 40%;
     height: auto;
     float: right;
     display: inline-block;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 .content .tlink{
-   color: black;
+   color: darkblue;
 }
 .links {
     min-width: 100%;
@@ -363,5 +376,30 @@ img {
     height: auto;
     margin-bottom: 1%;
 }
-
+.transport-info h2{
+    text-align: left;
+}
+.transport-info a{
+    text-decoration: none;
+}
+.transport-info p{
+    font-family: 'Archivo', sans-serif;
+    text-align: left;
+}
+.prices-info {
+    text-align: left;
+}
+.things-careful-info{
+    text-align: left;
+}
+.last-update{
+    font-family: 'Archivo', sans-serif;
+    background-color: #CCCDC6;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.last-update p{
+    padding: 10px;
+}
 
